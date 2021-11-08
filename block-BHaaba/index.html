@@ -1,8 +1,63 @@
-<!-- ### Exercise 2
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the brand name to the left and all the navigation to the right.
-
-3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
-4. Using float is necessary. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <title>Positioning | block-5</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="#">
+        <img src="./media/asset/altcampus-logo.svg" alt="atl-campus-logo" class="logo" >
+        </a>
+        <nav class="nav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>  
+    <main>
+        <div class="container">
+        <article class="article-1">
+                <div class="div-image">
+                    <img src="./media/asset/wolf-1.jpg">
+                </div>
+                <div class="content">
+                <h1 class="heading">THE WOLF</h1>
+                <P class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab aut cupiditate perferendis aspernatur eaque, veritatis accusamus dicta, soluta quo nihil laboriosam, enim illum non. Velit consectetur obcaecati iusto sapiente vero.
+                </P>
+               </div>
+        </article>
+        <article class="article-2">
+            <div>
+                <img src="./media/asset/elephant.webp" alt="elephant">
+            </div>
+            <div class="content">
+                <h1 class="heading"> THE ELEPHANT</h1>
+                <p class="para">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad quam vitae quis, eveniet dolores adipisci odit quo tenetur perspiciatis sit alias soluta ex quos, quaerat fuga asperiores et. Delectus, ab.
+                </p>
+            </div>
+        </article>
+        <article class="article-3">
+            <div>
+                <img src="./media/asset/dog.jpg" alt="dog">
+            </div>
+            <div class="content">
+                <h1 class="heading"> THE DOG</h1>
+                <p class="para">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad quam vitae quis, eveniet dolores adipisci odit quo tenetur perspiciatis sit alias soluta ex quos, quaerat fuga asperiores et. Delectus, ab.
+                </p>
+            </div>
+        </article>
+    </div>
+    </main>
+    <footer>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">twitter</a>
+    </footer>
+</body>
+</html>
