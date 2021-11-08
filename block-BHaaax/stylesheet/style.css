@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Custom -style  */
+
+header{
+	padding: 30px;
+	background-color: rebeccapurple;
+}
+span{
+	color: white;
+	font-size: 25px;
+}
+nav{
+	margin-left: 1200px;
+	display: inline-block;
+}
+a{
+	color:white;
+	font-size: 20px;
+	text-decoration: none;
+}
+.content{
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+.heading{
+	font-weight: bold;
+	font-size: 30px;
+	margin: 20px;
+}
+.para{
+	margin: 20px;
+}
+img{
+	width:400px;
+	height: 300px;
+}
+.wolf{
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+}
+article{
+	text-align: center;
+	padding-top: 110px;
+}
+main{
+	height: 460px;
+}
+
+/* footer style */
+
+footer{
+	padding: 25px;
+	background-color: rebeccapurple;
+	text-align: center;
+	margin-top: 80px;
+}
