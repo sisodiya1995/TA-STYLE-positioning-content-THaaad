@@ -1,0 +1,212 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom style */
+body{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.container{
+	max-width: 1600px;
+	line-height: 1.5;
+	margin: 0 auto;
+}
+/* Clearfix  */
+.clearfix::before,.clearfix::after{
+	content:"";
+	display: table;
+}
+.clearfix::after{
+	clear: both;
+}
+/* Header */
+header{
+    padding: 50px;
+    background-color: #5385C1;
+    vertical-align:top ;
+}
+.nav{
+    float: right;
+    padding-right: 100px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    
+}
+span{
+    color: white;
+    padding-left: 100px;
+}
+h1, p{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    padding-top: 100px;
+}
+p{
+padding-bottom: 50px;
+}
+/* content */
+.content{
+    width: 260px;
+    padding-top: 68px;
+    padding-bottom: 60px;
+}
+.para{
+    padding-top: 10px;
+    color: black;
+    text-align: left;
+    padding-bottom: 18px;
+}
+.heading{
+    color: #5385C1;
+    text-align: left;
+}
+button{
+    color: white;
+    background-color: #5385C1;
+    font-size: 17px;
+}
+.left{
+    float: left;
+    padding-left: 160px;
+    margin-right: 80px;
+}
+.card{
+    padding: 50px;
+    background-color:#5385C1;
+    padding-left: 120px;
+}
+.card-para{
+    font-weight: lighter;
+    font-size: 15px;
+}
+   
+.card-heading{
+    color:white;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.round-image{
+    margin-top: 40px;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+.card-size{
+    width: 230px;
+    height: 330px;
+    border: 1px solid white;
+    text-align: center;
+}
+.card-name{
+    padding-right: 100px;
+    padding-left: 80px;
+}
+.right{
+    float: left;
+    text-align: center;
+    margin-left: 65px;
+}
+.center{
+text-align: center;
+}
+.article-heading{
+    padding-top: 40px;
+color: #5385C1;
+}
+.article-para{
+color: gray;
+}
+.article-image{
+    width: 550px;
+    height: 150px;
+}
+.content-heading{
+    color: #5385C1;
+    text-align: left;
+}
+.content-para{
+    padding-top: 10px;
+    color: black;
+    text-align: left;
+    padding-bottom: 18px;
+}
+.article-content-width{
+    width: 450px;
+}
+.float-right-article{
+    float: right;
+    margin-right: 70px;
+    
+}
+.article-center{
+    padding-right: 90px;
+}
+hr{
+    /* border: dotted; */
+    color:rgb(39, 34, 34);
+    margin-top: 40px;
+    width: 1150px;
+    border: none;
+    border-bottom:1px dotted rgb(108, 108, 108) ;
+margin-bottom: 20px;
+
+}
+/* footer*/
+.footer-content{
+    color: gray;
+    margin-left: 90px;
+}
+.fab{
+    color: black;
+    font-size: 15px;
+}
+.footer-icon{
+    float: right;
+    margin-right: 150px;
+}
