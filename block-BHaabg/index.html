@@ -1,15 +1,58 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <linK rel="stylesheet" href="./stylesheet/style.css">
+    <title>positioning |Assignment-2</title>
+</head>
+<body class="clearfix">
+    <div class="container clearfix">
+    <header id="brand-logo" class="top-fixed">
+        <a>
+         <img src="./assets/media/altcampus-logo.svg" class="logo"  alt="logo">
+        </a>
+        <nav class="nav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header> 
+      <main>
+        <article>
+            <div class="content left">
+                <h1 id="panter">THE PANTHER</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptate iusto corrupti deleniti commodi incidunt molestias. Nostrum illo distinctio fugiat voluptatem reiciendis, commodi ratione deserunt sed, iste eligendi dignissimos totam.    
+                </P>
+            </div>
+            <div class="div-image left">
+                <img src="./assets/media/panther.jpg" alt="panther" class="panther">
+            </div>
+     </article> 
+     <gallery>  
+         <div class="col-1">
+             <img src="./assets/media/faf.webp" alt="cricket" class="image-size">
+             <img src="./assets/media/dhoni.webp" alt="cricket" class="image-size">
+             <img src="./assets/media/jadeja-3.jpg" alt="cricket" class="image-size">
+         </div>
+         <div class="col-1">
+             <img src="./assets/media/thakur-2.jpg" alt="cricket" class="image-size">
+             <img src="./assets/media/raina-2.jpg" alt="cricket" class="image-size">
+             <img src="./assets/media/bravo.jpg" alt="cricket" class="image-size">
+         </div>
+         <div class="col-1">
+            <img src="./assets/media/faf.webp" alt="cricket" class="image-size">
+            <img src="./assets/media/dhoni.webp" alt="cricket" class="image-size">
+            <img src="./assets/media/jadeja-3.jpg" alt="cricket" class="image-size">
+        </div>
+     </gallery>
+    </main>
+    <footer>
+       <a href="#brand-logo">
+            <button class="button fixed" >Top</button> </a>
+            <span> @Alt campus</span>
+    </footer>
+    </div>       
+</body>
+</html>
